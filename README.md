@@ -10,7 +10,7 @@ OpenCV HSV 기반 **빨간색 검출 및 필터링**과 HuggingFace 데이터셋
 - (권장) 가상환경 사용
 
 설치:
-```bash
+bash
 pip install -r requirements.txt
 
 
