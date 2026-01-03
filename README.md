@@ -10,15 +10,15 @@ OpenCV HSV 기반 **빨간색 검출 및 필터링**과 HuggingFace 데이터셋
 - (권장) 가상환경 사용
 
 설치:
-bash
-pip install -r requirements.txt
+```bash
+pip install -r requirements.txt```
 
 
 
 \## 1) Red Color Detection (HSV)
 
 Run
-python src/main.py --input sample.jpg --show
+```python src/main.py --input sample.jpg --show```
 
 Output
 output/mask_red.png
@@ -39,10 +39,10 @@ Steps
 \- (Optional) Data augmentation: flip / rotate / brightness change
 
 Run (save 5 preprocessed images)
-python image_preprocessing.py --num_samples 5
+```python image_preprocessing.py --num_samples 5```
 
 Run (save augmented images too)
-python image_preprocessing.py --num_samples 5 --save_aug
+```python image_preprocessing.py --num_samples 5 --save_aug```
 
 
 Outputs
