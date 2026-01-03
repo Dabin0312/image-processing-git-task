@@ -9,7 +9,7 @@ OpenCV를 활용한 **HSV 기반 객체 검출**과 HuggingFace 데이터셋을 
 * **Python 3.x**
 * **Virtual Environment (Recommended)**
 
-```bash
+
 # 환경 설정 및 라이브러리 설치
 pip install -r requirements.txt
 
@@ -36,7 +36,7 @@ Otsu Threshold 및 컨투어(Contour) 분석을 통해 객체 크기가 너무 �
 
 Augmentation (Optional): Flip, Rotation, Brightness 조정
 
-##🚀 Execution
+## 🚀 Execution
 # 기본 전처리 이미지 5장 생성
 python image_preprocessing.py --num_samples 5
 
