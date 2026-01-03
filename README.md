@@ -37,10 +37,10 @@ Otsu Threshold 및 컨투어(Contour) 분석을 통해 객체 크기가 너무 �
 Augmentation (Optional): Flip, Rotation, Brightness 조정
 
 ## 🚀 Execution
-# 기본 전처리 이미지 5장 생성
+기본 전처리 이미지 5장 생성
 python image_preprocessing.py --num_samples 5
 
-# 데이터 증강(Augmentation) 포함 실행
+데이터 증강(Augmentation) 포함 실행
 python image_preprocessing.py --num_samples 5 --save_aug
 
 
