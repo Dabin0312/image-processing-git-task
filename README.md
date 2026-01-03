@@ -10,7 +10,7 @@ OpenCV를 활용한 **HSV 기반 객체 검출**과 HuggingFace 데이터셋을 
 * **Virtual Environment (Recommended)**
 
 
-# 환경 설정 및 라이브러리 설치
+### 환경 설정 및 라이브러리 설치
 pip install -r requirements.txt
 
 
