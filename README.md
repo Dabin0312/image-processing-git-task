@@ -54,6 +54,13 @@ sample_n_preprocessed.png: 전처리가 완료된 이미지
 sample_n_aug_k.png: 데이터 증강이 적용된 이미지
 
 
+## 2D → 3D 변환 결과 (Depth Map)
+입력 이미지(sample.jpg)를 grayscale로 변환한 뒤 JET colormap을 적용해 가상 Depth Map을 생성했습니다.
+
+![Depth Map](depth_map.png)
+
+
+
 
 
 
