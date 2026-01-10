@@ -11,7 +11,6 @@ OpenCV를 활용한 **HSV 기반 객체 검출(1차)** 과 HuggingFace 데이터
 - (권장) Virtual Environment
 
 ### 설치
-```bash
 pip install -r requirements.txt
 
 
