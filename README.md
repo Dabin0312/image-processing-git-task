@@ -81,7 +81,7 @@ processing_3d.py
 generate_depth_map(image)
 depth_to_point_cloud(image)
 
-실
+실행
 python demo_3d.py
 
 
