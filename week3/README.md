@@ -22,6 +22,7 @@ Requirements:
 📌 Install libraries:
 pip install ultralytics opencv-python matplotlib numpy
 
+---
 
 ## 📂 3. Folder Structure
 week3/
@@ -46,6 +47,7 @@ week3/
 │     └─ per_image_summary.json
 └─ README.md
 
+---
 
 ## ▶️ 4. How to Run
 
@@ -62,6 +64,7 @@ Output:
 week3/outputs/stats/class_counts.json
 week3/outputs/stats/per_image_summary.json
 
+---
 
 ## 📌 5. Result Summary
 5-1) Total Detected Class Counts
@@ -82,6 +85,7 @@ From class_counts.json:
 🪑 chair and 🍽️ dining table appeared frequently → furniture-based indoor environment.
 🍽️ Food-related objects (knife, bowl, cake) appeared → meal-related scenes were included.
 
+---
 
 ## 🏁 6. Conclusion
 YOLOv8 successfully detected objects in 5 images and results were visualized using OpenCV.
