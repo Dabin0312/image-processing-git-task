@@ -68,7 +68,7 @@ week3/outputs/stats/per_image_summary.json
 
 ---
 
-## 📌 5. Result Summary
+## 📌 5. Demo_Result Summary
 
 5-1) Total Detected Class Counts (class_counts.json)
 - 👤 person: **4**
@@ -86,7 +86,7 @@ week3/outputs/stats/per_image_summary.json
 - 🍽️ Food-related objects (**knife, bowl, cake**) appeared → meal-related scenes were included.
 
 ---
-## 📊 6. Training & Validation Logs (COCO8)
+## 📊 6. Evaluation_Training & Validation Logs (COCO8)
 
 Training Curve (results.png)
 ![results](outputs/train_logs/results.png)
