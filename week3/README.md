@@ -97,8 +97,8 @@ Class frequency analysis helped identify object patterns across the dataset.
 
 
 ## 🚀 7. Improvement Ideas
-- 📌 Use more images for better pattern reliability
-- 🎯 Apply fine-tuning to improve detection accuracy
+- Use more images for better pattern reliability
+- Apply fine-tuning to improve detection accuracy
 
 
 
