@@ -85,7 +85,8 @@ week3/outputs/stats/per_image_summary.json
 - 🪑 **chair** and 🍽️ **dining table** appeared frequently → furniture-based indoor environment.
 - 🍽️ Food-related objects (**knife, bowl, cake**) appeared → meal-related scenes were included.
 
-5-3) 📊 Training & Validation Logs (COCO8)
+---
+## 📊 6. Training & Validation Logs (COCO8)
 
 Training Curve (results.png)
 ![results](outputs/train_logs/results.png)
@@ -100,16 +101,14 @@ Validation Prediction Sample
 
 
 
-
-
 ---
 
-## 🏁 6. Conclusion
+## 🏁 7. Conclusion
 YOLOv8 successfully detected objects in **5 images**, and results were visualized using OpenCV.  
 Class frequency analysis helped identify object patterns across the dataset.
 
 
-## 🚀 7. Improvement Ideas
+## 🚀 8. Improvement Ideas
 - Use more images for better pattern reliability
 - Apply fine-tuning to improve detection accuracy
 
