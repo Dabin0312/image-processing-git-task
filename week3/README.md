@@ -85,6 +85,19 @@ week3/outputs/stats/per_image_summary.json
 - 🪑 **chair** and 🍽️ **dining table** appeared frequently → furniture-based indoor environment.
 - 🍽️ Food-related objects (**knife, bowl, cake**) appeared → meal-related scenes were included.
 
+5-3) 📊 Training & Validation Logs (COCO8)
+
+Training Curve (results.png)
+![results](outputs/train_logs/results.png)
+
+Confusion Matrix
+![confusion_matrix](outputs/train_logs/confusion_matrix.png)
+
+Validation Prediction Sample
+![val_pred](outputs/train_logs/val_batch0_pred.jpg)
+
+📌 Validation Metrics: `outputs/stats/validation_metrics.md`
+
 
 
 
