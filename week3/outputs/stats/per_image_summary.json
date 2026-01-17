@@ -1,0 +1,48 @@
+[
+  {
+    "file": "img01.jpg",
+    "num_objects": 2,
+    "classes": [
+      "chair",
+      "chair"
+    ]
+  },
+  {
+    "file": "img02.jpg",
+    "num_objects": 4,
+    "classes": [
+      "dog",
+      "person",
+      "person",
+      "person"
+    ]
+  },
+  {
+    "file": "img03.jpg",
+    "num_objects": 4,
+    "classes": [
+      "knife",
+      "bowl",
+      "knife",
+      "dining table"
+    ]
+  },
+  {
+    "file": "img04.jpg",
+    "num_objects": 1,
+    "classes": [
+      "book"
+    ]
+  },
+  {
+    "file": "img05.jpg",
+    "num_objects": 5,
+    "classes": [
+      "person",
+      "dining table",
+      "chair",
+      "cake",
+      "dining table"
+    ]
+  }
+]
