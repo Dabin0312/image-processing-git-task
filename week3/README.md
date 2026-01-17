@@ -70,7 +70,7 @@ week3/outputs/stats/per_image_summary.json
 
 ## 📌 5. Result Summary
 
-### ✅ 5-1) Total Detected Class Counts (class_counts.json)
+5-1) Total Detected Class Counts (class_counts.json)
 - 👤 person: **4**
 - 🪑 chair: **3**
 - 🍽️ dining table: **3**
@@ -80,7 +80,7 @@ week3/outputs/stats/per_image_summary.json
 - 📖 book: **1**
 - 🎂 cake: **1**
 
-### 🔍 5-2) Pattern Interpretation (Insights)
+5-2) Pattern Interpretation (Insights)
 - 👤 **person** was detected the most → indoor/lifestyle scenes were common.
 - 🪑 **chair** and 🍽️ **dining table** appeared frequently → furniture-based indoor environment.
 - 🍽️ Food-related objects (**knife, bowl, cake**) appeared → meal-related scenes were included.
@@ -92,15 +92,13 @@ week3/outputs/stats/per_image_summary.json
 ---
 
 ## 🏁 6. Conclusion
-YOLOv8 successfully detected objects in 5 images and results were visualized using OpenCV.
+YOLOv8 successfully detected objects in **5 images**, and results were visualized using OpenCV.  
 Class frequency analysis helped identify object patterns across the dataset.
 
 
 ## 🚀 7. Improvement Ideas
-
-Future improvements:
-Use more images for better pattern reliability
-Apply fine-tuning to improve detection accuracy
+- 📌 Use more images for better pattern reliability
+- 🎯 Apply fine-tuning to improve detection accuracy
 
 
 
