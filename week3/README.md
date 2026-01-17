@@ -4,20 +4,20 @@
 ## 🎯 1. Goal
 This project performs **object detection** using an AI model (**YOLOv8**) and analyzes detected object patterns.
 
-✅ What we do:
-- 🔍 Detect objects in images using **YOLOv8**
-- 🖼️ Visualize bounding boxes with **OpenCV**
-- 📊 Analyze class frequency and number of objects per image
+🔍 What we do:
+- Detect objects in images using **YOLOv8**
+- Visualize bounding boxes with **OpenCV**
+- Analyze class frequency and number of objects per image
 
 ---
 
 ## 🛠️ 2. Environment
-✅ Requirements:
-- 🐍 Python 3.x  
-- ⚡ ultralytics (YOLOv8)  
-- 🧩 opencv-python  
-- 🔢 numpy  
-- 📈 matplotlib  
+Requirements:
+- Python 3.x  
+- ultralytics (YOLOv8)  
+- opencv-python  
+- numpy  
+- matplotlib  
 
 📌 Install libraries:
 pip install ultralytics opencv-python matplotlib numpy
@@ -52,19 +52,19 @@ week3/
 🖼️ 4-1) Object Detection (Visualization)
 python week3/src/yolo_detect.py
 
-📌 Output:
+Output:
 week3/outputs/vis/det_*.jpg
 
 
 📊 4-2) Pattern Analysis (Statistics)
 
-📌 Output:
+Output:
 week3/outputs/stats/class_counts.json
 week3/outputs/stats/per_image_summary.json
 
 
 ## 📌 5. Result Summary
-✅ 5-1) Total Detected Class Counts
+5-1) Total Detected Class Counts
 From class_counts.json:
 👤 person: 4
 🪑 chair: 3
@@ -76,7 +76,7 @@ From class_counts.json:
 🎂 cake: 1
 
 
-🔍 5-2) Pattern Interpretation
+5-2) Pattern Interpretation
 🧠 Insights:
 👤 person was detected the most → indoor/lifestyle scenes were common.
 🪑 chair and 🍽️ dining table appeared frequently → furniture-based indoor environment.
@@ -90,7 +90,7 @@ Class frequency analysis helped identify object patterns across the dataset.
 
 ## 🚀 7. Improvement Ideas
 
-💡 Future improvements:
+Future improvements:
 Use more images for better pattern reliability
 Apply fine-tuning to improve detection accuracy
 
