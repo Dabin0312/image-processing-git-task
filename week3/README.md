@@ -25,6 +25,7 @@ pip install ultralytics opencv-python matplotlib numpy
 ---
 
 ## 📂 3. Folder Structure
+```text
 week3/
 ├─ src/
 │  ├─ yolo_detect.py
@@ -46,6 +47,7 @@ week3/
 │     ├─ class_counts.json
 │     └─ per_image_summary.json
 └─ README.md
+```
 
 ---
 
@@ -67,28 +69,25 @@ week3/outputs/stats/per_image_summary.json
 ---
 
 ## 📌 5. Result Summary
-5-1) Total Detected Class Counts
-From class_counts.json:
-👤 person: 4
-🪑 chair: 3
-🍽️ dining table: 3
-🔪 knife: 2
-🐶 dog: 1
-🥣 bowl: 1
-📖 book: 1
-🎂 cake: 1
+
+### ✅ 5-1) Total Detected Class Counts (class_counts.json)
+- 👤 person: **4**
+- 🪑 chair: **3**
+- 🍽️ dining table: **3**
+- 🔪 knife: **2**
+- 🐶 dog: **1**
+- 🥣 bowl: **1**
+- 📖 book: **1**
+- 🎂 cake: **1**
+
+### 🔍 5-2) Pattern Interpretation (Insights)
+- 👤 **person** was detected the most → indoor/lifestyle scenes were common.
+- 🪑 **chair** and 🍽️ **dining table** appeared frequently → furniture-based indoor environment.
+- 🍽️ Food-related objects (**knife, bowl, cake**) appeared → meal-related scenes were included.
 
 
-5-2) Pattern Interpretation
-🧠 Insights:
-👤 person was detected the most
-→ indoor/lifestyle scenes were common.
 
-🪑 chair and 🍽️ dining table appeared frequently 
-→ furniture-based indoor environment.
 
-🍽️ Food-related objects (knife, bowl, cake) appeared 
-→ meal-related scenes were included.
 
 ---
 
