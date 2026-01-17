@@ -81,9 +81,14 @@ From class_counts.json:
 
 5-2) Pattern Interpretation
 🧠 Insights:
-👤 person was detected the most → indoor/lifestyle scenes were common.
-🪑 chair and 🍽️ dining table appeared frequently → furniture-based indoor environment.
-🍽️ Food-related objects (knife, bowl, cake) appeared → meal-related scenes were included.
+👤 person was detected the most
+→ indoor/lifestyle scenes were common.
+
+🪑 chair and 🍽️ dining table appeared frequently 
+→ furniture-based indoor environment.
+
+🍽️ Food-related objects (knife, bowl, cake) appeared 
+→ meal-related scenes were included.
 
 ---
 
