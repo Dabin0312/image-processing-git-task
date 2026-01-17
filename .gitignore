@@ -1,3 +1,5 @@
 .venv/
 output/
 sample.jpg
+__pycache__/
+*.pyc
